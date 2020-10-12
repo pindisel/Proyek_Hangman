@@ -1,0 +1,10 @@
+nama fakultas:
+"teknik", "mipa", "hukum", "kedokteran", "psikologi", "fisip", "farmasi", "fasilkom"
+
+
+nama kota:
+"jakarta", "medan", "makasar", "semarang", "bandung", "tangerang", "serang", "denpasar"
+
+
+nama hantu:
+"pocong", "kuyang", "genderuwo", "kuntil anak", "suster ngesot", "sundel bolong", "tuyul", "babi ngepet"

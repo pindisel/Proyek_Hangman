@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include "header.h"
 
-void three(){
+void three()
+{
 	printf ("     ________________________________________                                            \n");
 	printf ("    |    HANGMAN                             |           /\\/\\  /\\/\\  /\\/\\   \n");
 	printf ("    |    ____________________________________|           \\  /  \\  /  \\  /       \n");
@@ -26,7 +27,8 @@ void three(){
     printf ("                                                                            \n");
 }
 
-void two(){
+void two()
+{
 	printf ("     ________________________________________                                                                     \n");
 	printf ("    |    HANGMAN                             |         /\\/\\  /\\/\\                  \n");
 	printf ("    |    ____________________________________|         \\  /  \\  /                                               \n");
@@ -52,7 +54,8 @@ void two(){
     printf ("                                                                            \n");
 }
 
-void one (){
+void one ()
+{
 
 	printf ("     ________________________________________                                                                     \n");
 	printf ("    |    HANGMAN                             |         /\\/\\                      \n");
@@ -79,7 +82,8 @@ void one (){
     printf ("                                                                            \n");
 }
 
-void sad();{
+void dead()
+{
 	printf ("     ________________________________________                                                                     \n");
 	printf ("    |    HANGMAN                             |                               \n");
 	printf ("    |    ____________________________________|                                                         \n");
@@ -88,8 +92,8 @@ void sad();{
 	printf ("    |   |                                |                                \n");
 	printf ("    |   |                                |                                  \n");
 	printf ("    |   |    ==YOU LOSE==              __|__                                  \n");
-	printf ("    |   |    GO TO THE HELL           | X X |                               \n");
-	printf ("    |   |      BASTARD!!!             |_===_|                               \n");
+	printf ("    |   |     TRY AGAIN               | X X |                               \n");
+	printf ("    |   |                             |_===_|                               \n");
 	printf ("    |   |                               |_|                                 \n");
 	printf ("    |   |                              / | \\                           \n");
     printf ("    |   |                             /  |  \\                             \n");
@@ -105,16 +109,17 @@ void sad();{
     printf ("                                                                            \n");
 }
 
-void happy();{
+void alive()
+{
     printf ("     ________________________________________                                            \n");
 	printf ("    |    HANGMAN                             |             \n");
 	printf ("    |    ____________________________________|              \n");
 	printf ("    |   |                              \\   /                    \n");
 	printf ("    |   |                               \\ /                         \n");
 	printf ("    |   |                                |                                  \n");
-	printf ("    |   |  =YOU WIN=                     |                                 \n");
-	printf ("    |   |  LETS DANCE                    |                                  \n");
-	printf ("    |   |  TOGEHTHER                    _|_                                  \n");
+	printf ("    |   |    =YOU WIN=                   |                                 \n");
+	printf ("    |   |    LETS DANCE                  |                                  \n");
+	printf ("    |   |     TOGETHER                  _|_                                  \n");
 	printf ("    |   |                              |___|                                   \n");
 	printf ("    |   |                              _____                                  \n");
 	printf ("    |   |                             | ^ ^ |                                \n");

@@ -1,8 +1,9 @@
-#include <stdio.h>
-    
-int main(){
-	
-	printf ("      _________               _______                    _______ \n");                                                                                                                                  
+#include "header.h"
+
+void tema()
+{
+	system ("cls");
+	printf ("\t\t\t      _________               _______                    _______ \n");                                                                                                                                  
     printf ("     |___   ___|             |  _____|                  | ______| \n");                                                                                                                                       
     printf ("         | |                 | |_____                   | |_____  \n");
 	printf ("         | |                 | ______|                  | ______| \n");                                                                                                                                  
@@ -19,24 +20,33 @@ int main(){
     printf ("   ________________________________________________________________\n");
     printf ("  / ______________________________________________________________ \\    \n");
     printf (" / /                                                              \\ \\   \n");                                                              
-    printf (" | |   *there are only 3 themes in this game*                     | |     \n");                                                                                                             
+    printf (" | |   *There are only 3 themes in this game*                     | |     \n");                                                                                                             
     printf (" | |                                                              | |      \n");                                                                                                        
-    printf (" | |   1. faculty at the University of Indonesia                  | |       \n");                                                                                                   
-    printf (" | |       in indonesia university there are 14 faculties,        | |      \n");                                                                                              
+    printf (" | |   1. Faculty at the University of Indonesia                  | |       \n");                                                                                                   
+    printf (" | |       There are 14 faculties in University of Indonesia,     | |      \n");                                                                                              
     printf (" | |       but in this game we only play with 8 faculties only.   | |      \n");                                                                                         
     printf (" | |                                                              | |      \n");                                                                                    
-    printf (" | |   2. 	city name in Indonesia                            | |        \n");                                                                               
-    printf (" | |        there are dozens of cities in Indonesia,              | |         \n");                                                                          
+    printf (" | |   2.  Capital Cities in Indonesia                            | |        \n");                                                                               
+    printf (" | |        There are dozens of cities in Indonesia,              | |         \n");                                                                          
     printf (" | |        but we only play with 8 cities                        | |       \n");                                                                     
     printf (" | |                                                              | |         \n");                                                                
-    printf (" | |   3.  types of ghosts in Indonesia                           | |        \n");                                                           
+    printf (" | |   3.  Types of Ghosts in Indonesia                           | |        \n");                                                           
     printf (" | |       The most famous ghost in Indonesia is pocong,          | |      \n");                                                      
     printf (" | |        do you know all 7 of his friends pocong?              | |         \n");                                                                                                                 
-    printf (" | |                                                              | |           \n");                                                                                                               
-    printf (" | |                                                              | |       \n");                                                                                                                   
+    printf (" | |                                                              | |         \n");                                                                                                
+    printf (" | |                                                              | |         \n");                                                                                                                
     printf (" | |           (*)                                                | |      \n");                                                                                                                    
     printf (" | |         ( '' )   *mr.pocong                                  | |      \n");                                                                                                                    
     printf (" | |         \\||||/                                               | |      \n");                                                                                                                    
     printf (" \\ \\__________(||)________________________________________________/_/      \n");                                                             
     printf ("  \\________________________________________________________________/\n");
+    Sleep (1500);
+    printf ("\n\nPress any key to continue");
+    int i;
+	for (i; i < 4; i ++)
+	{
+		printf (" . ");
+		Sleep (500);
+	}
+	getch();
 }

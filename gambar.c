@@ -3,51 +3,51 @@
 //Tampilan hangman disaat nyawa = 3
 void three()
 {
-	printf ("     ________________________________________       \n");
-	printf ("    |    HANGMAN                             |           /\\/\\  /\\/\\  /\\/\\   \n");
-	printf ("    |    ____________________________________|           \\  /  \\  /  \\  /       \n");
-	printf ("    |   |                              \\   /              \\/    \\/    \\/          \n");
-	printf ("    |   |                               \\ /                         \n");
-	printf ("    |   |                                |                                  \n");
-	printf ("    |   |                                |                                 \n");
-	printf ("    |   |                                |                                  \n");
-	printf ("    |   |                               _|_                                  \n");
-	printf ("    |   |                              |___|                                   \n");
-	printf ("    |   |                              _____                                  \n");
-	printf ("    |   |                             | ^ ^ |                                \n");
-    printf ("    |   |                             |__>__|                                     \n");
-	printf ("    |   |                               _|_                                 \n");
-	printf ("    |   |                              / | \\                                  \n");
-	printf ("    |   |                             /  |  \\                                 \n");
-	printf ("    |   |                                |                                  \n");
-    printf ("    |   |                               / \\                                  \n");
-    printf ("    |   |                              /   \\                                  \n");
-    printf ("    |___|===================================================        \n");
+	printf ("\t\t\t     ________________________________________       \n");
+	printf ("\t\t\t    |    HANGMAN                             |           /\\/\\  /\\/\\  /\\/\\   \n");
+	printf ("\t\t\t    |    ____________________________________|           \\  /  \\  /  \\  /       \n");
+	printf ("\t\t\t    |   |                              \\   /              \\/    \\/    \\/          \n");
+	printf ("\t\t\t    |   |                               \\ /                         \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+	printf ("\t\t\t    |   |                                |                                 \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+	printf ("\t\t\t    |   |                               _|_                                  \n");
+	printf ("\t\t\t    |   |                              |___|                                   \n");
+	printf ("\t\t\t    |   |                              _____                                  \n");
+	printf ("\t\t\t    |   |                             | ^ ^ |                                \n");
+    printf ("\t\t\t    |   |                             |__>__|                                     \n");
+	printf ("\t\t\t    |   |                               _|_                                 \n");
+	printf ("\t\t\t    |   |                              / | \\                                  \n");
+	printf ("\t\t\t    |   |                             /  |  \\                                 \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+    printf ("\t\t\t    |   |                               / \\                                  \n");
+    printf ("\t\t\t    |   |                              /   \\                                  \n");
+    printf ("\t\t\t    |___|===================================================        \n");
 }
 
 //Tampilan hangman disaat nyawa = 2
 void two()
 {
-	printf ("     ________________________________________          \n");
-	printf ("    |    HANGMAN                             |         /\\/\\  /\\/\\    \n");
-	printf ("    |    ____________________________________|         \\  /  \\  /     \n");
-	printf ("    |   |                              \\   /            \\/    \\/     \n");
-	printf ("    |   |                               \\ /     \n");
-	printf ("    |   |                                |          \n");
-	printf ("    |   |                                |       \n");
-	printf ("    |   |                                |  \n");
-	printf ("    |   |                                |     \n");
-	printf ("    |   |                                |    \n");
-	printf ("    |   |                              __|__   \n");
-	printf ("    |   |                             | 0 0 | \n");
-    printf ("    |   |                             |_---_|   \n");
-	printf ("    |   |                               |_|    \n");
-	printf ("    |   |                              / | \\   \n");
-	printf ("    |   |                             /  |  \\       \n");
-	printf ("    |   |                                |     \n");
-    printf ("    |   |                               / \\                                  \n");
-    printf ("    |   |                              /   \\                                  \n");
-    printf ("    |___|===================================================         \n");
+	printf ("\t\t\t     ________________________________________          \n");
+	printf ("\t\t\t    |    HANGMAN                             |         /\\/\\  /\\/\\    \n");
+	printf ("\t\t\t    |    ____________________________________|         \\  /  \\  /     \n");
+	printf ("\t\t\t    |   |                              \\   /            \\/    \\/     \n");
+	printf ("\t\t\t    |   |                               \\ /     \n");
+	printf ("\t\t\t    |   |                                |          \n");
+	printf ("\t\t\t    |   |                                |       \n");
+	printf ("\t\t\t    |   |                                |  \n");
+	printf ("\t\t\t    |   |                                |     \n");
+	printf ("\t\t\t    |   |                                |    \n");
+	printf ("\t\t\t    |   |                              __|__   \n");
+	printf ("\t\t\t    |   |                             | 0 0 | \n");
+    printf ("\t\t\t    |   |                             |_---_|   \n");
+	printf ("\t\t\t    |   |                               |_|    \n");
+	printf ("\t\t\t    |   |                              / | \\   \n");
+	printf ("\t\t\t    |   |                             /  |  \\       \n");
+	printf ("\t\t\t    |   |                                |     \n");
+    printf ("\t\t\t    |   |                               / \\                                  \n");
+    printf ("\t\t\t    |   |                              /   \\                                  \n");
+    printf ("\t\t\t    |___|===================================================         \n");
 
 }
 
@@ -55,78 +55,81 @@ void two()
 void one ()
 {
 
-	printf ("     ________________________________________                 \n");
-	printf ("    |    HANGMAN                             |         /\\/\\                      \n");
-	printf ("    |    ____________________________________|         \\  /          \n");
-	printf ("    |   |                              \\   /            \\/                    \n");
-	printf ("    |   |                               \\ /                            \n");
-	printf ("    |   |                                |                                \n");
-	printf ("    |   |                                |                                  \n");
-	printf ("    |   |                              __|__                                  \n");
-	printf ("    |   |                             | _ _ |                               \n");
-	printf ("    |   |                             |__+__|                               \n");
-	printf ("    |   |                               |_|                                 \n");
-	printf ("    |   |                              / | \\                           \n");
-    printf ("    |   |                             /  |  \\                             \n");
-	printf ("    |   |                                |                                 \n");
-	printf ("    |   |                               / \\                              \n");
-	printf ("    |   |                              /   \\                          \n");
-	printf ("    |   |                                                                  \n");
-    printf ("    |   |                                                             \n");
-    printf ("    |   |                                                                \n");
-    printf ("    |___|===================================================             \n");
+
+	printf ("\t\t\t     ________________________________________                 \n");
+	printf ("\t\t\t    |    HANGMAN                             |         /\\/\\                      \n");
+	printf ("\t\t\t    |    ____________________________________|         \\  /          \n");
+	printf ("\t\t\t    |   |                              \\   /            \\/                    \n");
+	printf ("\t\t\t    |   |                               \\ /                            \n");
+	printf ("\t\t\t    |   |                                |                                \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+	printf ("\t\t\t    |   |                              __|__                                  \n");
+	printf ("\t\t\t    |   |                             | _ _ |                               \n");
+	printf ("\t\t\t    |   |                             |__+__|                               \n");
+	printf ("\t\t\t    |   |                               |_|                                 \n");
+	printf ("\t\t\t    |   |                              / | \\                           \n");
+    printf ("\t\t\t    |   |                             /  |  \\                             \n");
+	printf ("\t\t\t    |   |                                |                                 \n");
+	printf ("\t\t\t    |   |                               / \\                              \n");
+	printf ("\t\t\t    |   |                              /   \\                          \n");
+	printf ("\t\t\t    |   |                                                                  \n");
+    printf ("\t\t\t    |   |                                                             \n");
+    printf ("\t\t\t    |   |                                                                \n");
+    printf ("\t\t\t    |___|===================================================             \n");
 
 }
 
 //Tampilan hangman disaat nyawa = 0
 void dead()
 {
-	printf ("     ________________________________________       \n");
-	printf ("    |    HANGMAN                             |                               \n");
-	printf ("    |    ____________________________________|   \n");
-	printf ("    |   |                              \\   /                              \n");
-	printf ("    |   |                               \\ /                            \n");
-	printf ("    |   |                                |                                \n");
-	printf ("    |   |                                |                                  \n");
-	printf ("    |   |    ==YOU LOSE==              __|__                                  \n");
-	printf ("    |   |     TRY AGAIN               | X X |                               \n");
-	printf ("    |   |                             |_===_|                               \n");
-	printf ("    |   |                               |_|                                 \n");
-	printf ("    |   |                              / | \\                           \n");
-    printf ("    |   |                             /  |  \\                             \n");
-	printf ("    |   |                                |                                 \n");
-	printf ("    |   |                               / \\                              \n");
-	printf ("    |   |                              /   \\                          \n");
-	printf ("    |   |                                                                  \n");
-    printf ("    |   |                                                             \n");
-    printf ("    |   |                                                                \n");
-    printf ("    |___|===================================================       \n");
+
+	printf ("\t\t\t     ________________________________________       \n");
+	printf ("\t\t\t    |    HANGMAN                             |                               \n");
+	printf ("\t\t\t    |    ____________________________________|   \n");
+	printf ("\t\t\t    |   |                              \\   /                              \n");
+	printf ("\t\t\t    |   |                               \\ /                            \n");
+	printf ("\t\t\t    |   |                                |                                \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+	printf ("\t\t\t    |   |    ==YOU LOSE==              __|__                                  \n");
+	printf ("\t\t\t    |   |     TRY AGAIN               | X X |                               \n");
+	printf ("\t\t\t    |   |                             |_===_|                               \n");
+	printf ("\t\t\t    |   |                               |_|                                 \n");
+	printf ("\t\t\t    |   |                              / | \\                           \n");
+    printf ("\t\t\t    |   |                             /  |  \\                             \n");
+	printf ("\t\t\t    |   |                                |                                 \n");
+	printf ("\t\t\t    |   |                               / \\                              \n");
+	printf ("\t\t\t    |   |                              /   \\                          \n");
+	printf ("\t\t\t    |   |                                                                  \n");
+    printf ("\t\t\t    |   |                                                             \n");
+    printf ("\t\t\t    |   |                                                                \n");
+    printf ("\t\t\t    |___|===================================================       \n");
 
 }
 
 //Tampilan hangman disaat nyawa tidak habis
 void alive()
 {
-    printf ("     ________________________________________      \n");
-	printf ("    |    HANGMAN                             |             \n");
-	printf ("    |    ____________________________________|              \n");
-	printf ("    |   |                              \\   /                    \n");
-	printf ("    |   |                               \\ /                         \n");
-	printf ("    |   |                                |                                  \n");
-	printf ("    |   |    =YOU WIN=                   |                                 \n");
-	printf ("    |   |    LETS DANCE                  |                                  \n");
-	printf ("    |   |     TOGETHER                  _|_                                  \n");
-	printf ("    |   |                              |___|                                   \n");
-	printf ("    |   |                              _____                                  \n");
-	printf ("    |   |                             | ^ ^ |                                \n");
-    printf ("    |   |                             |_'>'_|                                     \n");
-	printf ("    |   |                               _|_                                 \n");
-	printf ("    |   |                         \\_/\\_/ |\\_/\\_/                                  \n");
-	printf ("    |   |                                |                                   \n");
-	printf ("    |   |                                |                                  \n");
-    printf ("    |   |                               / \\                                  \n");
-    printf ("    |   |                              /   \\                                  \n");
-    printf ("    |___|===================================================    \n");
+
+    printf ("\t\t\t     ________________________________________      \n");
+	printf ("\t\t\t    |    HANGMAN                             |             \n");
+	printf ("\t\t\t    |    ____________________________________|              \n");
+	printf ("\t\t\t    |   |                              \\   /                    \n");
+	printf ("\t\t\t    |   |                               \\ /                         \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+	printf ("\t\t\t    |   |    =YOU WIN=                   |                                 \n");
+	printf ("\t\t\t    |   |    LETS DANCE                  |                                  \n");
+	printf ("\t\t\t    |   |     TOGETHER                  _|_                                  \n");
+	printf ("\t\t\t    |   |                              |___|                                   \n");
+	printf ("\t\t\t    |   |                              _____                                  \n");
+	printf ("\t\t\t    |   |                             | ^ ^ |                                \n");
+    printf ("\t\t\t    |   |                             |_'>'_|                                     \n");
+	printf ("\t\t\t    |   |                               _|_                                 \n");
+	printf ("\t\t\t    |   |                         \\_/\\_/ |\\_/\\_/                                  \n");
+	printf ("\t\t\t    |   |                                |                                   \n");
+	printf ("\t\t\t    |   |                                |                                  \n");
+    printf ("\t\t\t    |   |                               / \\                                  \n");
+    printf ("\t\t\t    |   |                              /   \\                                  \n");
+    printf ("\t\t\t    |___|===================================================    \n");
 
 
 }

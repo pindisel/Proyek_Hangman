@@ -45,19 +45,16 @@ void mulai1()
 	{
 		case '1':
 			panjangKata = strlen(namaFakultas[random]);
-			printf ("%s\n", namaFakultas[random]);
 			tema = 1;
 			mulai2(namaFakultas[random], panjangKata, random, tema);
 			break;
 		case '2':
 			panjangKata = strlen(namaKota[random]);
-			printf ("%s\n", namaKota[random]);
 			tema = 2;
 			mulai2(namaKota[random], panjangKata, random, tema);
 			break;
 		case '3':
 			panjangKata = strlen(namaHantu[random]);
-			printf ("%s\n", namaHantu[random]);
 			tema = 3;
 			mulai2(namaHantu[random], panjangKata, random, tema);
 			break;
@@ -90,7 +87,6 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 	
 	while (benarAkhir < panjangKata)
 	{
-		system ("cls");
 		printf ("\t\tTheme: ");
 		if (tema == 1)
 		{

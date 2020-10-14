@@ -1,6 +1,7 @@
 #include "header.h"
 
-void die()
+//Tampilan jika player kalah
+void lose()
 {
 	printf ("       ___        ___    ___________    ___       ___         ___________         ___     __________ \n");
 	printf ("       \\  \\      /  /   /           \\  |   |     |   |       |           \\       |___|   |   _______|\n");
@@ -12,6 +13,7 @@ void die()
 	printf ("            |__|        \\___________/   \\___________/         \\_____________/    |___|   |__________| \n");
 }
 
+//Tampilan jika player menang
 void win()
 {
 

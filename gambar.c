@@ -1,5 +1,6 @@
 #include "header.h"
 
+//Tampilan hangman disaat nyawa = 3
 void three()
 {
 	printf ("     ________________________________________       \n");
@@ -24,6 +25,7 @@ void three()
     printf ("    |___|===================================================        \n");
 }
 
+//Tampilan hangman disaat nyawa = 2
 void two()
 {
 	printf ("     ________________________________________          \n");
@@ -49,6 +51,7 @@ void two()
 
 }
 
+//Tampilan hangman disaat nyawa = 1
 void one ()
 {
 
@@ -75,6 +78,7 @@ void one ()
 
 }
 
+//Tampilan hangman disaat nyawa = 0
 void dead()
 {
 	printf ("     ________________________________________       \n");
@@ -96,10 +100,11 @@ void dead()
 	printf ("    |   |                                                                  \n");
     printf ("    |   |                                                             \n");
     printf ("    |   |                                                                \n");
-    printf ("    |___|===================================================                                                                    \n");
+    printf ("    |___|===================================================       \n");
 
 }
 
+//Tampilan hangman disaat nyawa tidak habis
 void alive()
 {
     printf ("     ________________________________________      \n");

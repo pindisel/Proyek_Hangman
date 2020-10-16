@@ -1,6 +1,4 @@
 #include "header.h"
-#define BOLD "\x1b[1m"
-#define RESET "\x1b[0m"
 
 
 void mulai1()
@@ -16,7 +14,7 @@ void mulai1()
 	char soal[1][100];
 	int tema;
 	
-	pilihTema:
+	
 	printf ("\t\t\t   ________________________________________________________________      \n");
     printf ("\t\t\t  / ______________________________________________________________ \\    \n");
     printf ("\t\t\t / /                                                              \\ \\        \n");                                                              
@@ -61,7 +59,8 @@ void mulai1()
 		default:
 			printf ("\aInvalid input!\n");
 			printf ("Please input again\n");
-			goto pilihTema;
+			Sleep(500);
+			mulai1();
 			break;
 	}
 	
@@ -77,8 +76,7 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 	int benarAwal = 0;
 	int benarAkhir = 0;
 
-	fflush (stdin);
-	system("cls");
+	
 	
 	for (i = 0; i < 20; i++)
 	{
@@ -87,7 +85,8 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 	
 	while (benarAkhir < panjangKata)
 	{
-		printf ("\t\tTheme: ");
+		system("cls");
+		printf ("\t\t\tTheme: ");
 		if (tema == 1)
 		{
 			printf ("Faculty at the University of Indonesia");
@@ -96,7 +95,7 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 		{
 			printf ("Capital City in Indonesia");
 		}
-		else if (tema == 2)
+		else if (tema == 3)
 		{
 			printf ("Types of Ghost in Indonesia");
 		}
@@ -116,6 +115,7 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 			one();
 		}
 		
+		printf ("\t\t\t");
 		for (i = 0; i < panjangKata; i++)
 		{
 			if (urutanHuruf[i] == 1)
@@ -128,10 +128,9 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 			}
 		}
 		
-		printf ("\n");
-		printf ("\n\nHuruf: ");
-		hurufTebak = getch();
-		printf ("%c", hurufTebak);
+		printf ("\n\n\n\t\t\tGuess a Letter: ");
+		scanf ("%c", &hurufTebak);
+		fflush(stdin);
 		
 		benarAwal = benarAkhir;
 		
@@ -154,7 +153,7 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 		if (benarAwal == benarAkhir)
 		{
 			nyawa--;
-			printf ("\nsalah\n");
+			printf ("\n\t\t\tWrong!\n");
 			
 			if (nyawa == 0)
 			{
@@ -164,8 +163,9 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 		
 		else
 		{
-			printf ("\nbenar\n");
+			printf ("\n\t\t\tCorrect! :)\n");
 		}
+		Sleep(1500);
 	}
 	
 	if (nyawa == 0)
@@ -174,14 +174,34 @@ void mulai2(char soal[], int panjangKata, int random, int tema)
 		lose();
 		dead();
 		printf ("The correct word is ");
-		system ("color 04");
-		printf ("%s"RESET, soal);
+		printf (RED_BG"%s"RESET, soal);
+		Sleep (1500);
+    	printf ("\n\nPress any key to continue");
+    	
+		for (i = 0; i < 4; i ++)
+		{
+			printf (" . ");
+			Sleep (500);
+		}
+		getch();
+		ulangKalah();
 	}
 	else
 	{
 		system ("cls");
 		win();
 		alive();
+		Sleep (1500);
+    	printf ("\n\n\t\tPress any key to continue");
+    	
+		for (i = 0; i < 4; i ++)
+		{
+			printf (" . ");
+			Sleep (500);
+		}
+		getch();
+		ulangMenang();
+		
 		
 	}
 	

@@ -4,9 +4,9 @@
 void three()
 {
 	printf ("\t\t\t    "BROWN_BG"                                          "RESET"\n");
-	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"           /\\/\\  /\\/\\  /\\/\\   \n");
-	printf ("\t\t\t    "BROWN_BG"                                          "RESET"           \\  /  \\  /  \\  /       \n");
-	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /              \\/    \\/    \\/          \n");
+	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"           "RED_TEXT"/\\/\\  /\\/\\  /\\/\\   \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"                                          "RESET"           "RED_TEXT"\\  /  \\  /  \\  /       \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /              "RED_TEXT"\\/    \\/    \\/          \n"RESET);
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               \\ /                         \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                 \n");
@@ -22,16 +22,17 @@ void three()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                               / \\                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                              /   \\                                  \n");
-    printf ("\t\t\t    "BROWN_BG"     "RESET"===================================================        \n");
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================        \n"RESET);
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
 }
 
 //Tampilan hangman disaat nyawa = 2
 void two()
 {
 	printf ("\t\t\t    "BROWN_BG"                                          "RESET"               \n");
-	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"         /\\/\\  /\\/\\    \n");
-	printf ("\t\t\t    "BROWN_BG"                                          "RESET"         \\  /  \\  /     \n");
-	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /            \\/    \\/     \n");
+	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"         "RED_TEXT"/\\/\\  /\\/\\    \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"                                          "RESET"         "RED_TEXT"\\  /  \\  /     \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /            "RED_TEXT"\\/    \\/     \n"RESET);
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               \\ /     \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |          \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |       \n");
@@ -47,7 +48,8 @@ void two()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |     \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                               / \\                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                              /   \\                                  \n");
-    printf ("\t\t\t    "BROWN_BG"     "RESET"===================================================         \n");
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================         \n"RESET);
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
 
 }
 
@@ -57,9 +59,9 @@ void one ()
 
 
 	printf ("\t\t\t    "BROWN_BG"                                          "RESET"               \n");
-	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"         /\\/\\                      \n");
-	printf ("\t\t\t    "BROWN_BG"                                          "RESET"         \\  /          \n");
-	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /            \\/                    \n");
+	printf ("\t\t\t    "BROWN_BG"     HANGMAN                              "RESET"         "RED_TEXT"/\\/\\   \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"                                          "RESET"         "RED_TEXT"\\  /          \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /            "RED_TEXT"\\/   \n"RESET);
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               \\ /                            \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
@@ -75,7 +77,8 @@ void one ()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                                                             \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                                                                \n");
-    printf ("\t\t\t    "BROWN_BG"     "RESET"===================================================             \n");
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
 
 }
 
@@ -90,7 +93,7 @@ void dead()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               \\ /                            \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
-	printf ("\t\t\t    "BROWN_BG"     "RESET"    ==YOU LOSE==              __|__                                  \n");
+	printf ("\t\t\t    "BROWN_BG"     "RESET"    "RED_TEXT"==YOU LOSE=="RESET"              __|__                                  \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"     TRY AGAIN               | X X |                               \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                             |_===_|                               \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               |_|                                 \n");
@@ -102,8 +105,8 @@ void dead()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                                                            \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                                                                \n");
-    printf ("\t\t\t    "BROWN_BG"     "RESET"===================================================       \n");
-
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================       \n"RESET);
+	printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
 }
 
 //Tampilan hangman disaat nyawa tidak habis
@@ -116,7 +119,7 @@ void alive()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                              \\   /                    \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                               \\ /                         \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
-	printf ("\t\t\t    "BROWN_BG"     "RESET"    =YOU WIN=                   |                                 \n");
+	printf ("\t\t\t    "BROWN_BG"     "RESET"    "LAWNGREEN_TEXT"=YOU WIN="RESET"                   |                                 \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"    LETS DANCE                  |                                  \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"     TOGETHER                  _|_                                  \n");
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                              |___|                                   \n");
@@ -129,8 +132,8 @@ void alive()
 	printf ("\t\t\t    "BROWN_BG"     "RESET"                                |                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                               / \\                                  \n");
     printf ("\t\t\t    "BROWN_BG"     "RESET"                              /   \\                                  \n");
-    printf ("\t\t\t    "BROWN_BG"     "RESET"===================================================    \n");  
-
+    printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================         \n"RESET);  
+	printf ("\t\t\t    "BROWN_BG"     "RESET""DARKGREEN_TEXT"===================================================             \n"RESET);
 
 }
 

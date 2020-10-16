@@ -3,7 +3,7 @@
 void tema()
 {
 	system ("cls");
-	printf ("\t\t\t      _________               _______                    _______ \n");                                                                                                                                  
+	printf (TANGERINE_TEXT"\t\t\t      _________               _______                    _______ \n");                                                                                                                                  
     printf ("\t\t\t     |___   ___|             |  _____|                  | ______| \n");                                                                                                                                       
     printf ("\t\t\t         | |                 | |_____                   | |_____  \n");
 	printf ("\t\t\t         | |                 | ______|                  | ______| \n");                                                                                                                                  
@@ -13,10 +13,10 @@ void tema()
     printf ("\t\t\t                 |  ___  |               | |\\ \\/ /| |              \n");                                                                                                                                       
     printf ("\t\t\t                 | |   | |               | | \\__/ | |              \n");
 	printf ("\t\t\t                 |_|   |_|               |_|      |_|              \n");                                                                                                                                  
-    printf ("\t\t\t___________________________________________________________________\n");
-    printf ("\t\t\t\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\ \n");                                                                                                                                       
-    printf ("\t\t\t \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n");
-    printf ("\t\t\t  \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\  \n");
+    printf ("\t\t\t  __________________________________________________________________\n");
+    printf ("\t\t\t  \\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /\\    /     \n");                                                                                                                                       
+    printf ("\t\t\t   \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /\n");
+    printf ("\t\t\t    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/    \\/     \n"RESET);
     printf ("\t\t\t   ________________________________________________________________\n");
     printf ("\t\t\t  / ______________________________________________________________ \\    \n");
     printf ("\t\t\t / /                                                              \\ \\   \n");                                                              
@@ -32,7 +32,7 @@ void tema()
     printf ("\t\t\t | |                                                              | |         \n");                                                                
     printf ("\t\t\t | |   3.  Types of Ghosts in Indonesia                           | |        \n");                                                           
     printf ("\t\t\t | |       The most famous ghost in Indonesia is pocong,          | |      \n");                                                      
-    printf ("\t\t\t | |        do you know all 7 of his friends pocong?              | |         \n");                                                                                                                 
+    printf ("\t\t\t | |        do you know all 7 of his friends?                     | |         \n");                                                                                                                 
     printf ("\t\t\t | |                                                              | |         \n");                                                                                                
     printf ("\t\t\t | |                                                              | |         \n");                                                                                                                
     printf ("\t\t\t | |           (*)                                                | |      \n");                                                                                                                    
@@ -41,9 +41,9 @@ void tema()
     printf ("\t\t\t \\ \\__________(||)________________________________________________/_/      \n");                                                             
     printf ("\t\t\t  \\________________________________________________________________/\n");
     Sleep (1500);
-    printf ("\n\nPress any key to continue");
+    printf ("\n\n\t\tPress any key to continue");
     int i;
-	for (i; i < 4; i ++)
+	for (i = 0; i < 4; i ++)
 	{
 		printf (" . ");
 		Sleep (500);

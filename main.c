@@ -6,7 +6,7 @@ int main()
 	pembuka();
 	MENU:
 	mainMenu();
-	
+	ULANG:
 	switch (getch())
 	{
 		case '1':
@@ -21,6 +21,7 @@ int main()
 			goto MENU;
 			break;
 		case '4':
+			penutup();
 			exit(0);
 			break;
 			
@@ -31,8 +32,9 @@ int main()
             goto MENU;
             break;
 	}
+	goto ULANG;
 	
-	
+	penutup();
 
     return 0;
 }

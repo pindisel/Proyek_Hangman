@@ -52,7 +52,10 @@ void petunjuk()
     int i;
 	for (i = 0; i < 4; i ++)
 	{
-		printf (" . ");
+		printf ("      (*)      \n ");
+		printf ("   ( '' )      \n  ");
+		printf ("  \\||||/        \n  ");
+		printf ("   (||)         \n");
 		Sleep (500);
 	}
 	getch();

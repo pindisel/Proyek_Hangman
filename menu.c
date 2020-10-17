@@ -1,6 +1,6 @@
 #include "header.h"
 
-
+//Tampilan pertama saat program pertama kali dijalankan
 void pembuka()
 {
 	system ("cls");
@@ -16,6 +16,7 @@ void pembuka()
 	Sleep (5000);
 }
 
+//Tampilan menu utama
 void mainMenu()
 {
 	system ("cls");
@@ -48,6 +49,7 @@ void mainMenu()
     
 }
 
+//Tampilan menu utama setelah pemain menang
 void ulangMenang()
 {
 	system ("cls");
@@ -84,10 +86,11 @@ void ulangMenang()
 	
 }
 
+//Tampilan menu utama setelah pemain kalah
 void ulangKalah()
 {
 	system ("cls");
-	printf (LIGHTGRAY_TEXT"\t\t\t      _____________                                                     \n");
+	printf (GRAY_TEXT"\t\t\t      _____________                                                     \n");
 	printf ("\t\t\t     |\\/\\/\\/\\/\\/\\/\\|                                         \n");
 	printf ("\t\t\t     |    rest     |                                         \n");
 	printf ("\t\t\t     |     in      |                                         \n");
@@ -123,6 +126,7 @@ void ulangKalah()
 	
 }
 
+//Tampilan saat ingin keluar dari program
 void penutup()
 {
 	system("cls");

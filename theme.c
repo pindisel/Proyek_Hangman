@@ -1,5 +1,6 @@
 #include "header.h"
 
+//Tampilan di pilihan theme
 void tema()
 {
 	system ("cls");
@@ -22,7 +23,7 @@ void tema()
     printf ("\t\t\t / /                                                              \\ \\   \n");                                                              
     printf ("\t\t\t | |   *There are only 3 themes in this game*                     | |     \n");                                                                                                             
     printf ("\t\t\t | |                                                              | |      \n");                                                                                                        
-    printf ("\t\t\t | |   1. Faculty at the University of Indonesia                  | |       \n");                                                                                                   
+    printf ("\t\t\t | |   1. Faculty at University of Indonesia                      | |       \n");                                                                                                   
     printf ("\t\t\t | |       There are 14 faculties in University of Indonesia,     | |      \n");                                                                                              
     printf ("\t\t\t | |       but in this game we only play with 8 faculties only.   | |      \n");                                                                                         
     printf ("\t\t\t | |                                                              | |      \n");                                                                                    
@@ -43,12 +44,12 @@ void tema()
     Sleep (1500);
     printf ("\n\n\t\tPress any key to continue");
     int i;
-	for (i = 0; i < 4; i ++)
+	for (i = 0; i < 3; i ++)
 	{
-		printf ("      (*)      \n ");
-		printf ("   ( '' )      \n  ");
-		printf ("  \\||||/        \n  ");
-		printf ("   (||)         \n");
+		printf ("\n\t\t\t\t\t\t   (*) \n");
+		printf ("\t\t\t\t\t\t  ( '' ) \n");
+		printf ("\t\t\t\t\t\t  \\||||/ \n");
+		printf ("\t\t\t\t\t\t   (||)\n");
 		Sleep (500);
 	}
 	getch();

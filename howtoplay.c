@@ -1,6 +1,6 @@
 #include "header.h"
     
-    
+//Tampilan di pilihan how to play
 void petunjuk()
 {    
 	system("cls");
@@ -50,12 +50,12 @@ void petunjuk()
     Sleep (1500);
     printf ("\n\n\t\tPress any key to continue");
     int i;
-	for (i = 0; i < 4; i ++)
+	for (i = 0; i < 3; i ++)
 	{
-		printf ("      (*)      \n ");
-		printf ("   ( '' )      \n  ");
-		printf ("  \\||||/        \n  ");
-		printf ("   (||)         \n");
+		printf ("\n\t\t\t\t\t\t   (*) \n");
+		printf ("\t\t\t\t\t\t  ( '' ) \n");
+		printf ("\t\t\t\t\t\t  \\||||/ \n");
+		printf ("\t\t\t\t\t\t   (||)\n");
 		Sleep (500);
 	}
 	getch();

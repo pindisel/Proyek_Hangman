@@ -25,7 +25,7 @@ int main()
 			exit(0);
 			break;
 			
-		deafult:
+		default:
 			printf ("\a\n\nInvalid Input\n");
             printf ("Please enter another choice.\n");
             getch();
@@ -34,7 +34,5 @@ int main()
 	}
 	goto ULANG;
 	
-	penutup();
-
     return 0;
 }

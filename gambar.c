@@ -54,7 +54,7 @@ void two()
 }
 
 //Tampilan hangman disaat nyawa = 1
-void one ()
+void one()
 {
 
 

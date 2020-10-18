@@ -4,7 +4,7 @@ Program ini adalah adalah permainan menebak huruf yang bertujuan untuk menebak s
 
 **Disusun oleh:**</br>
 **Anathapindika Muliawan - 1906355730** </br>
-**Muhammad Omar Mochtar - 190** </br>
+**Muhammad Omar Mochtar - 1906381483** </br>
 
 ### How to run program?
 1. Download semua file yang ada di repository proyek

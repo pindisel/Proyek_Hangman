@@ -2,9 +2,9 @@
 
 Program ini adalah adalah permainan menebak huruf yang bertujuan untuk menebak suatu kata yang dipilih secara acak. 
 
-**Disusun oleh: </br>
-Anathapindika Muliawan - 1906355730 </br>
-Muhammad Omar Mochtar - 
+** Disusun oleh: </br>
+** Anathapindika Muliawan - 1906355730 </br>
+** Muhammad Omar Mochtar - 
 
 ### Cara compile:
 1. Download semua file
